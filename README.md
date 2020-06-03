@@ -6,7 +6,6 @@ NTCIR15-Stance-classification-task用の「議員/所属会派辞書」とその
 [東京都議会HP](https://search.metro.tokyo.lg.jp/?kw=&temp=JP&ie=u&sitesearch=www.gikai.metro.tokyo.jp)の検索エンジンに議員名を与え, その議員が所属する政党名を抽出する.
 
 ## 内容
-自分の実行環境に合わせて適切にインストールしてください.
 - NTCIR15-makedic.py
   - 辞書作成用プログラム
 
@@ -23,8 +22,14 @@ NTCIR15-Stance-classification-task用の「議員/所属会派辞書」とその
   - 説明書MDファイル
   
 ## 必要ライブラリ
-
+自分の実行環境に合わせて適切にインストールしてください.
 - bs4(BeautifulSoup4)
 - requests-html
 - jeraconv
 - retry
+
+## 実行
+現時点ではjson dumpを実装していません.
+```
+python NTCIR15-makedic.py
+```
