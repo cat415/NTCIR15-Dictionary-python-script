@@ -39,7 +39,7 @@ NTCIR15-Stance-classification-task用の「議員/所属会派辞書」とその
   - 使った関数など
 
 - PoliInfo2-StanceClassification-JA-Dry-Dictionary-v**.json
-  - NTCIR15-makedic.pyで作成した辞書
+  - NTCIR15-makedic.pyを利用して作成した議員/所属会派
   
 - PoliInfo2-StanceClassification-JA-Dry-Test-v20200522.json
   - 議事録jsonファイル
@@ -55,7 +55,7 @@ NTCIR15-Stance-classification-task用の「議員/所属会派辞書」とその
 - retry
 
 ## 実行
-現時点ではjson dumpを実装していません.
+json dumpは未実装.
 ```
 python NTCIR15-makedic.py
 ```
